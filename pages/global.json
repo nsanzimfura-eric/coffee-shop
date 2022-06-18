@@ -1,0 +1,140 @@
+{"header":
+    {
+    "title": "Coffee House Home",
+    "description": "Welcome home again! We want  you to stay  happy and fresh. Hope you enjoyed our premium coffee from all over the world! Thank you for joing the  masters!! You are now among us!"
+    },
+"heroSection":
+        {
+            "hero": "Drink Healthy <br> the Natural Coffee",
+            "subHero": "At home, is where you can find the freshest coffee, brownies, roasted meat, brochettes , cupcakes  <br> So welcome Home!!",
+            "bg": "url(images/insta-4.jpg)",
+            "img1": " url(images/menu-1.jpg);",
+            "img2": "url(images/EURO-COFFE.png);",
+            "img3": " url(images/spania-coffee.png);"
+
+        },
+"heroSectionSlide2":
+        {
+            "hero": "The home of<br> quality things",
+            "subHero": "Imagine  taking coffee cups and simple food from home and it has no effects on your body. It is a paradisematic country. <br> So welcome Home!!",
+            "bg": "url(images/image-coffee-up.png);",
+            "img1": "url(images/insta-5.jpg);",
+            "img2": "url(images/pork-chicken.png);",
+            "img3": " url(images/goodPork.png);"
+        },
+"about":
+        {
+            "title": "Welcome to Coffee House Home",
+            "subtitle": "On his way to Coffee House Home, he found that he had forgot his account card so he thought he had no other way pay and drink and eat the freshest coffee or eat some most delicious food! He also forgot that he was our potential customer since he had visited us only twice! So easy! he had to come and take what he wanted and  pay on the following day. Come home frequently and you will find your second home! <br>Welcome home! ",
+            "bg": "url(images/image-people-coffee.png);",
+            "video" : "https://youtu.be/Wjs0GI8nEiA",
+            "images":[
+                {
+                    "img": "url(images/insta-2.jpg);",
+                    "caption": "British Supper"
+                },
+                {
+                    "img": "url(images/pork-chicken.png);",
+                    "caption": "Rwandan Roasted Chicken"
+                },
+                {
+                    "img": " url(images/goodPork.png);",
+                    "caption": "Rwandan Roasted beef"
+                }
+            ]   
+        },
+"counterSection":
+        {
+            "bg": "images/bg_4.jpg",
+            "experience": [
+                {
+                    "number": "10",
+                    "caption": "Years of Experience"
+                },
+                {
+                    "number": "20000",
+                    "caption": "Happy customers"
+                },
+                {
+                    "number": "50",
+                    "caption": "New visitors"
+                },
+                {
+                    "number": "20",
+                    "caption": "working hours"
+                }
+            ] 
+        },
+        "menuSection":
+        {"items": [
+            {
+                "id":  1,
+                "img":  "images/breakfast-1.jpg",
+                "name": "Grilled Beef with potatoes",
+                "price": "10",
+                "ingredients":  [
+                    {"name": "Meat"},
+                    {"name": "Potatoes"},
+                    {"name": "Tomatoes"},
+                    {"name": "Few oil"},
+                    {"name": "Salisa"}
+                ]
+            },
+            {
+                "id":  2,
+                "img":  "images/breakfast-2.jpg",
+                "name": "Black coffee",
+                "price": "20",
+                "ingredients": [
+                    {"name": "Coffee"},
+                    {"name": "Honey"},
+                    {"name": "Lemon"},
+                    {"name": "Tangawizi"}
+                ]
+            },
+            {
+                "id":  3,
+                "img":  "images/breakfast-3.jpg",
+                "name": "Green Tea",
+                "price": "15",
+                "ingredients":  [
+                    {"name": "Lemon"},
+                    {"name": "Teat floor"},
+                    {"name": "Coffee"},
+                    {"name": "Sugar"},
+                    {"name": "Nicotin"}
+                ]       
+            }
+
+        ]
+        },
+        "footerSection":
+        {
+        "Newsletter": "Subscribe us to get every new style or kind of coffee we got from new countries. We know you will love it!",
+         "availability": [
+                {
+                    "day": "Monday - Friday",
+                    "time": "6:00AM to 2:00AM"
+                },
+                {
+                    "day": "Saturday",
+                    "time": "6:00AM to 12:00AM"
+                },
+                {
+                    "day": "Sunday",
+                    "time": "6:00AM to 9:00PM"
+                }
+            ],
+        "instagram1": [
+                {"img": "images/insta-1.jpg"},
+                {"img": "images/insta-2.jpg"},
+                {"img": "images/insta-3.jpg"}
+            ],
+        "instagram2": [
+                {"img": "images/insta-4.jpg"},
+                {"img": "images/insta-5.jpg"},
+                {"img": "images/insta-6.jpg"}
+            ]
+        }
+}
+ 
