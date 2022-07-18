@@ -78,10 +78,9 @@
 		<section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: {{about.bg}} position: relative">
-						<a href="{{about.video}}" class="icon-video popup-vimeo d-flex justify-content-center align-items-center" target="_blank">
-  						<span class="ion-ios-play"></span>
-  					</a>
+					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" 
+							style="background-image: {{about.bg}} position: relative"
+					>
 					</div>
 					<div class="col-sm-7 wrap-about py-5 ftco-animate">
 	          <div class="heading-section mt-5 mb-4">
@@ -107,7 +106,7 @@
 			</div>
 		</section>
 
-		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{counterSection.bg}});" data-stellar-background-ratio="0.5">
+	<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{counterSection.bg}});" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-10">
@@ -323,8 +322,8 @@
       </div>
     </section>
 			
-		<section class="ftco-section">
-			<div class="container">
+	<section class="ftco-section">
+		<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section ftco-animate">
           	<span class="subheading">Chef</span>
@@ -336,8 +335,8 @@
 						<div class="staff">
 							<div class="img" style="background-image: url(images/chef-4.jpg);"></div>
 							<div class="text px-4 pt-4">
-								<h3>John Smooth</h3>
-								<span class="position mb-2">CEO, Co Founder</span>
+								<h3>John Smilga</h3>
+								<span class="position mb-2">Customer care</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -354,8 +353,8 @@
 						<div class="staff">
 							<div class="img" style="background-image: url(images/chef-2.jpg);"></div>
 							<div class="text px-4 pt-4">
-								<h3>Rebeca Welson</h3>
-								<span class="position mb-2">Head Chef</span>
+								<h3>Sharley Wendy</h3>
+								<span class="position mb-2">Manager Chef</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -372,8 +371,8 @@
 						<div class="staff">
 							<div class="img" style="background-image: url(images/chef-3.jpg);"></div>
 							<div class="text px-4 pt-4">
-								<h3>Kharl Branyt</h3>
-								<span class="position mb-2">Chef</span>
+								<h3>Brian Kuran</h3>
+								<span class="position mb-2">Advisor</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -391,7 +390,7 @@
 							<div class="img" style="background-image: url(images/chef-1.jpg);"></div>
 							<div class="text px-4 pt-4">
 								<h3>Luke Simon</h3>
-								<span class="position mb-2">Chef</span>
+								<span class="position mb-2">Kitchen Chef</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -406,15 +405,15 @@
 					</div>
 				</div>
 			</div>
-		</section>
+	</section>
 
-		<section class="ftco-section ftco-no-pt ftco-no-pb">
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container">
 				<div class="row d-flex">
           <div class="col-md-5 ftco-animate img img-2" style="background-image: url(images/bg_6.jpg);"></div>
           <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
           	<div class="heading-section ftco-animate mb-5">
-	          	<span class="subheading">Book a Table</span>
+	          	<span class="subheading"> Wanna Book a Table??</span>
 	            <h2 class="mb-4">Make Reservation</h2>
 	          </div>
             <form action="#">
@@ -422,13 +421,13 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="text" class="form-control" placeholder="Your  Name">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Email</label>
-                    <input type="text" class="form-control" placeholder="Your Email">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" placeholder="Your Email" id = "email">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -439,17 +438,11 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Phone</label>
+                    <label for="">When do you need it?</label>
                     <input type="text" class="form-control" id="book_date" placeholder="Date">
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="">Time</label>
-                    <input type="text" class="form-control" id="book_time" placeholder="Time">
-                  </div>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                   <div class="form-group">
                     <label for="">Person</label>
                     <div class="select-wrap one-third">
@@ -462,6 +455,13 @@
                         <option value="">4+</option>
                       </select>
                     </div>
+                  </div>
+                </div>
+				<div class="col-md-8">
+                  <div class="form-group">
+                    <label for="">Describe your order</label>
+                    <textarea type="text" rows = "8" class="form-control"  placeholder="Anything about your order">
+					</textarea>
                   </div>
                 </div>
                 <div class="col-md-12 mt-3">

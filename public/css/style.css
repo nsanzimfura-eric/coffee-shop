@@ -8692,7 +8692,7 @@ h1, h2, h3, h4, h5,
       margin-bottom: 0;
       font-size: .9rem;
      text-align: center;
-     transition:  all .5s ease;
+     transition:  all .5s ease-in-out;
      border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
       color: rgba(0, 0, 0, 0.2); }
 
@@ -8705,7 +8705,8 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 50%;
     border-radius: 50%; }
   .menus .text-sm:hover{
-      color: rgba(0, 0, 0, 0.3);
+      color: rgba(0, 0, 0, 0.5);
+      font-style: oblique;
       border-bottom: 1px dashed black !important;}
 
     .menus .text:hover .one-forth .price {

@@ -27,7 +27,6 @@
             "title": "Welcome to Coffee House Home",
             "subtitle": "On his way to Coffee House Home, he found that he had forgot his account card so he thought he had no other way pay and drink and eat the freshest coffee or eat some most delicious food! He also forgot that he was our potential customer since he had visited us only twice! So easy! he had to come and take what he wanted and  pay on the following day. Come home frequently and you will find your second home! <br>Welcome home! ",
             "bg": "url(images/image-people-coffee.png);",
-            "video" : "https://youtu.be/Wjs0GI8nEiA",
             "images":[
                 {
                     "img": "url(images/insta-2.jpg);",
@@ -141,6 +140,12 @@
                     ]
                 }
             ]
+
+        },
+        "testimony":
+        {
+
+            
 
         },
         "footerSection":
