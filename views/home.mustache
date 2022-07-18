@@ -137,153 +137,99 @@
             <h2 class="mb-4">Our Menu</h2>
           </div>
         </div>
-        <div class="row">
+        <div class=" row">
+				{{! WHAT WE HAVE AS BEER  DRINKS::::::::::::::::::: }}
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
         			<h3>Drinks</h3>
         		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/breakfast-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/breakfast-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/breakfast-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-        	</div>
+				<div class="menus d-flex ftco-animate">
+					{{#menuSection.drinks}}
+							<div class="text d-flex">
+							<div class="menu-img img" style="background-image: url({{img}});"></div>
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>{{name}}</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">${{price}}</span>
+									</div>
+								</div>
+							</div>
+							<p class="text-sm my-2">
+								{{#ingred}}
+									<span>{{ingred1}}</span>,
+									<span>{{ingred2}}</span>
+									<span>{{ingred3}}</span>
+									<span>{{ingred4}}</span>
+								{{/ingred}}
+							</p>
+					{{/menuSection.drinks}}
+				</div>
+			</div>
 
+				{{! WHAT WE HAVE AS NORMAL DRINKS::::::::::::::::::: }}
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
-        			<h3>Teat</h3>
+        			<h3>Tea</h3>
         		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/lunch-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/lunch-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/lunch-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-        	</div>
+				<div class="menus d-flex ftco-animate">
+					{{#menuSection.tea}}
+							<div class="text d-flex">
+							<div class="menu-img img" style="background-image: url({{img}});"></div>
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>{{name}}</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">${{price}}</span>
+									</div>
+								</div>
+							</div>
+							<p class="text-sm my-2">
+								{{#ingred}}
+									<span>{{ingred1}}</span>,
+									<span>{{ingred2}}</span>
+									<span>{{ingred3}}</span>
+									<span>{{ingred4}}</span>
+								{{/ingred}}
+							</p>
+					{{/menuSection.tea}}
+				</div>
+			</div>
 
+			{{! WHAT WE HAVE AS PASTRIES::::::::::::::::::: }}
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
         			<h3>Pastries</h3>
         		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dinner-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dinner-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-        	</div>
-        <div class="row">
-        	<div class="col-md-12 text-center ftco-animate">
-        		<p><a href="#" class="btn btn-black py-3 px-5">View All Menu</a></p>
+				<div class="menus d-flex ftco-animate">
+					{{#menuSection.pastries}}
+							<div class="text d-flex">
+							<div class="menu-img img" style="background-image: url({{img}});"></div>
+								<div class="d-flex">
+									<div class="one-half">
+										<h3>{{name}}</h3>
+									</div>
+									<div class="one-forth">
+										<span class="price">${{price}}</span>
+									</div>
+								</div>
+							</div>
+							<p class="text-sm my-2">
+								{{#ingred}}
+									<span>{{ingred1}}</span>,
+									<span>{{ingred2}}</span>
+									<span>{{ingred3}}</span>
+									<span>{{ingred4}}</span>
+								{{/ingred}}
+							</p>
+					{{/menuSection.pastries}}
+				</div>
+			</div>
+        <div class=" container row">
+        	<div class="col-md-12 text-center  ftco-animate">
+        		<p><a href="/specialities" class="btn btn-primary py-3 mx-5 px-2 px-lg-5">View All Menu</a></p>
         	</div>
         </div>
     	</div>

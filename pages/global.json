@@ -48,11 +48,11 @@
             "bg": "images/bg_4.jpg",
             "experience": [
                 {
-                    "number": "10",
+                    "number": "5",
                     "caption": "Years of Experience"
                 },
                 {
-                    "number": "20000",
+                    "number": "2000",
                     "caption": "Happy customers"
                 },
                 {
@@ -66,47 +66,82 @@
             ] 
         },
         "menuSection":
-        {"items": [
-            {
-                "id":  1,
-                "img":  "images/breakfast-1.jpg",
-                "name": "Grilled Beef with potatoes",
-                "price": "10",
-                "ingredients":  [
-                    {"name": "Meat"},
-                    {"name": "Potatoes"},
-                    {"name": "Tomatoes"},
-                    {"name": "Few oil"},
-                    {"name": "Salisa"}
-                ]
-            },
-            {
-                "id":  2,
-                "img":  "images/breakfast-2.jpg",
-                "name": "Black coffee",
-                "price": "20",
-                "ingredients": [
-                    {"name": "Coffee"},
-                    {"name": "Honey"},
-                    {"name": "Lemon"},
-                    {"name": "Tangawizi"}
-                ]
-            },
-            {
-                "id":  3,
-                "img":  "images/breakfast-3.jpg",
-                "name": "Green Tea",
-                "price": "15",
-                "ingredients":  [
-                    {"name": "Lemon"},
-                    {"name": "Teat floor"},
-                    {"name": "Coffee"},
-                    {"name": "Sugar"},
-                    {"name": "Nicotin"}
-                ]       
-            }
+        { "drinks":
+            [ 
+                {
+                    "name": "Smirking Priest Gimlet",
+                    "img": "images/breakfast-1.jpg",
+                    "price":  24,
+                    "ingred": [
+                        {"ingred1": "Lemon ashes" },
+                        {"ingred2": "Honey" },
+                        {"ingred3": "Red wine" },
+                        {"ingred4": "Hennessy" }
+                    ]
+                },
+                {
+                    "name": "Honey Badger Blitz",
+                    "img": "images/lunch-1.jpg",
+                    "price": 10,
+                    "ingred": [
+                        {"ingred1": "Lemon ashes" },
+                        {"ingred2": "Honey" },
+                        {"ingred3": "Red wine" },
+                        {"ingred4": "Hennessy" }
+                    ]
+                }
+            ],
+        "tea":
+        [ 
+                {
+                    "name": "Smirking Priest Gimlet",
+                    "img": "images/lunch-1.jpg",
+                    "price": 40,
+                    "ingred": [
+                        {"ingred1": "Lemon ashes" },
+                        {"ingred2": "Honey" },
+                        {"ingred3": "Red wine" },
+                        {"ingred4": "Hennessy" }
+                    ]
+                },
+                {
+                    "name": "Roasted chicken",
+                    "img": "images/lunch-1.jpg",
+                    "price": 20,
+                    "ingred": [
+                        {"ingred1": "Lemon ashes" },
+                        {"ingred2": "Honey" },
+                        {"ingred3": "Red wine" },
+                        {"ingred4": "Hennessy" }
+                    ]
+                }
+        ],
+        "pastries":
+        [
+                {
+                    "name": "Grilled Beef with potatoes",
+                    "img": "images/lunch-1.jpg",
+                    "price": 7,
+                    "ingred": [
+                        {"ingred1": "Lemon ashes" },
+                        {"ingred2": "Honey" },
+                        {"ingred3": "Red wine" },
+                        {"ingred4": "Hennessy" }
+                    ]
+                },
+                {
+                    "name": "Roasted chicken",
+                    "img": "images/lunch-1.jpg",
+                    "price": 5,
+                    "ingred": [
+                        {"ingred1": "Lemon ashes" },
+                        {"ingred2": "Honey" },
+                        {"ingred3": "Red wine" },
+                        {"ingred4": "Hennessy" }
+                    ]
+                }
+            ]
 
-        ]
         },
         "footerSection":
         {

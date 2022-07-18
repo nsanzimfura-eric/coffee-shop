@@ -8660,6 +8660,7 @@ h1, h2, h3, h4, h5,
 
 .menus {
   width: 100%;
+  flex-direction: column;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px dashed #e6e6e6;
@@ -8687,9 +8688,14 @@ h1, h2, h3, h4, h5,
         -webkit-transition: all 0.3s ease;
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease; }
-    .menus .text p {
+    .menus .text-sm {
       margin-bottom: 0;
-      color: rgba(0, 0, 0, 0.3); }
+      font-size: .9rem;
+     text-align: center;
+     transition:  all .5s ease;
+     border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+      color: rgba(0, 0, 0, 0.2); }
+
   .menus .menu-img {
     margin-right: 20px;
     width: 80px;
@@ -8698,9 +8704,11 @@ h1, h2, h3, h4, h5,
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-  .menus:hover {
-    border-bottom: 1px dashed black; }
-    .menus:hover .text .one-forth .price {
+  .menus .text-sm:hover{
+      color: rgba(0, 0, 0, 0.3);
+      border-bottom: 1px dashed black !important;}
+
+    .menus .text:hover .one-forth .price {
       color: #000000; }
 
 .staff {
