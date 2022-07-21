@@ -413,41 +413,41 @@
           <div class="col-md-5 ftco-animate img img-2" style="background-image: url(images/bg_6.jpg);"></div>
           <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
           	<div class="heading-section ftco-animate mb-5">
-	          	<span class="subheading"> Wanna Book a Table??</span>
+	          	<span class="subheading mb-2"> Wanna Book a Table??</span>
 	            <h2 class="mb-4">Make Reservation</h2>
 	          </div>
-            <form action="#">
+            <form action="/order" method = "POST">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Name</label>
-                    <input type="text" class="form-control" placeholder="Your  Name">
+                    <label for="name">Name</label>
+                    <input type="text"  name="name" class="form-control" placeholder="Your  Name">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control" placeholder="Your Email" id = "email">
+                    <input type="text" name="email" class="form-control" placeholder="Your Email" id = "email">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Phone</label>
-                    <input type="text" class="form-control" placeholder="Phone">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" class="form-control" placeholder="Phone">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">When do you need it?</label>
-                    <input type="text" class="form-control" id="book_date" placeholder="Date">
+                    <label for="time">When do you need it?</label>
+                    <input type="text"  name="time" class="form-control" id="book_date" placeholder="Date">
                   </div>
                 </div>
                 <div class="col-md-3">
                   <div class="form-group">
-                    <label for="">Person</label>
+                    <label for="number">Person</label>
                     <div class="select-wrap one-third">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
+                      <select name="number" id="" class="form-control">
                         <option value="">Person</option>
                         <option value="">1</option>
                         <option value="">2</option>
@@ -460,7 +460,7 @@
 				<div class="col-md-8">
                   <div class="form-group">
                     <label for="">Describe your order</label>
-                    <textarea type="text" rows = "8" class="form-control"  placeholder="Anything about your order">
+                    <textarea type="text" name="order" rows = "8" class="form-control"  style=" background-color: #f9f9f9 !important;"placeholder="Describe your order here ..." >
 					</textarea>
                   </div>
                 </div>
