@@ -132,228 +132,128 @@
     <section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Specialties</span>
-            <h2 class="mb-4">Our Menu</h2>
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-			{{! Drinks part }}
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Drinks</h3>
-        		</div>
-				{{#menuSection.drinks}}
-        		<div class="menus d-flex ftco-animate">
-              		<div class="menu-img img" style="background-image: url({{img}});"></div>
-					<div class="text">
-						<div class="d-flex">
-							<div class="one-half">
-								<h3>{{name}}</h3>
-							</div>
-							<div class="one-forth">
-								<span class="price">${{price}}</span>
-							</div>
-						</div>
-						<p>
-							{{#ingredients}}
-								<span>{{name}}</span>
-							{{/ingredients}}
-						</p>
+          		<div class="col-md-7 text-center heading-section ftco-animate">
+          			<span class="subheading">Specialties</span>
+            		<h2 class="mb-4">Our Menu</h2>
+         		</div>
+        	</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4 menu-wrap">
+					{{! Drinks part }}
+					<div class="heading-menu text-center ftco-animate">
+						<h3>Drinks</h3>
 					</div>
-           		</div>
-				{{/menuSection.drinks}}
-			
-			{{! Tea part }}
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Teat</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              		<div class="menu-img img" style="background-image: url(images/lunch-1.jpg);"></div>
-              		<div class="text">
-              			<div class="d-flex">
-	                		<div class="one-half">
-	                  			<h3>{{name}}</h3>
-	               			</div>
-	                	<div class="one-forth">
-	                  	<span class="price">${{price}}</span>
-	                </div>
-	            </div>
-	            <p>
-						{{#ingredients}}
-							<span> {{name}}</span>
-						{{/ingredients}}
-				</p>
-            </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/lunch-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/lunch-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-        	</div>
+					{{#menuSection.drinks}}
+					<div class="menus d-flex ftco-animate">
+						<div class="menu-img img" style="background-image: url({{img}});"></div>
+						<div class="text">
+							<div class="d-flex">
+								<div class="one-half">
+									<h3>{{name}}</h3>
+								</div>
+								<div class="one-forth">
+									<span class="price">${{price}}</span>
+								</div>
+							</div>
+							<p>
+								{{#ingredients}}
+									<span>{{name}},</span>
+								{{/ingredients}}
+							</p>
+						</div>
+					</div>
+					{{/menuSection.drinks}}
+				</div>
+				
+				{{! Tea part }}
+				<div class="col-md-6 col-lg-4 menu-wrap">
+					<div class="heading-menu text-center ftco-animate">
+						<h3>Teat</h3>
+					</div>
+					{{#menuSection.tea}}
+					<div class="menus d-flex ftco-animate">
+						<div class="menu-img img" style="background-image: url({{img}});"></div>
+						<div class="text">
+							<div class="d-flex">
+								<div class="one-half">
+									<h3>{{name}}</h3>
+								</div>
+								<div class="one-forth">
+									<span class="price">${{price}}</span>
+								</div>
+							</div>
+							<p>
+								{{#ingredients}}
+									<span>{{name}},</span>
+								{{/ingredients}}
+							</p>
+						</div>
+					</div>
+					{{/menuSection.tea}}
+				</div>
+					{{! Pastries part---- }}
 
-        	<div class="col-md-6 col-lg-4 menu-wrap">
-        		<div class="heading-menu text-center ftco-animate">
-        			<h3>Pastries</h3>
-        		</div>
-        		<div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Beef with potatoes</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dinner-2.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-            <div class="menus d-flex ftco-animate">
-              <div class="menu-img img" style="background-image: url(images/dinner-3.jpg);"></div>
-              <div class="text">
-              	<div class="d-flex">
-	                <div class="one-half">
-	                  <h3>Grilled Crab with Onion</h3>
-	                </div>
-	                <div class="one-forth">
-	                  <span class="price">$29</span>
-	                </div>
-	              </div>
-	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
-              </div>
-            </div>
-        	</div>
-        <div class="row">
-        	<div class="col-md-12 text-center ftco-animate">
-        		<p><a href="#" class="btn btn-black py-3 px-5">View All Menu</a></p>
-        	</div>
-        </div>
+				<div class="col-md-6 col-lg-4 menu-wrap">
+					<div class="heading-menu text-center ftco-animate">
+						<h3>Pastries</h3>
+					</div>
+					{{#menuSection.pastries}}
+					<div class="menus d-flex ftco-animate">
+						<div class="menu-img img" style="background-image: url({{img}});"></div>
+						<div class="text">
+							<div class="d-flex">
+								<div class="one-half">
+									<h3>{{name}}</h3>
+								</div>
+								<div class="one-forth">
+									<span class="price">${{price}}</span>
+								</div>
+							</div>
+							<p>
+								{{#ingredients}}
+									<span>{{name}},</span>
+								{{/ingredients}}
+							</p>
+						</div>
+					</div>
+					{{/menuSection.pastries}}
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center ftco-animate">
+					<p><a href="#" class="btn btn-black my-2 py-3 px-5">View All Menu</a></p>
+				</div>
+			</div>
     	</div>
-
-    </section>
+	</section>
 
     <section class="ftco-section testimony-section" style="background-image: url(images/bg_5.jpg);" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
           	<span class="subheading">Testimony</span>
-            <h2 class="mb-4">Happy Customer</h2>
+            <h2 class="mb-4">Happy Customers</h2>
           </div>
         </div>
         <div class="row ftco-animate justify-content-center">
           <div class="col-md-7">
             <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Arthur Browner</p>
-                    <span class="position">Customer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Arthur Browner</p>
-                    <span class="position">Customer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Arthur Browner</p>
-                    <span class="position">Customer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_4.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Arthur Browner</p>
-                    <span class="position">Customer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text p-3">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Arthur Browner</p>
-                    <span class="position">Customer</span>
-                  </div>
-                </div>
-              </div>
+				{{#testimonialSection.people}}
+					<div class="item">
+						<div class="testimony-wrap text-center py-4 pb-5">
+						<div class="user-img mb-4" style="background-image: url({{img}})">
+							<span class="quote d-flex align-items-center justify-content-center">
+							<i class="icon-quote-left"></i>
+							</span>
+						</div>
+						<div class="text p-3">
+							<p class="mb-4">{{quote}}</p>
+							<p class="name">{{name}}</p>
+							<span class="position">{{position}}</span>
+						</div>
+						</div>
+					</div>
+				{{/testimonialSection.people}}
             </div>
           </div>
         </div>
