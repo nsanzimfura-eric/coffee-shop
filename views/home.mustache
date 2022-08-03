@@ -78,9 +78,10 @@
 		<section class="ftco-section ftco-wrap-about ftco-no-pb ftco-no-pt">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" 
-							style="background-image: {{about.bg}} position: relative"
-					>
+					<div class="col-sm-5 img img-2 d-flex align-items-center justify-content-center justify-content-md-end" style="background-image: {{about.bg}} position: relative">
+						<a href="{{about.video}}" class="icon-video popup-vimeo d-flex justify-content-center align-items-center" target="_blank">
+  						<span class="ion-ios-play"></span>
+  					</a>
 					</div>
 					<div class="col-sm-7 wrap-about py-5 ftco-animate">
 	          <div class="heading-section mt-5 mb-4">
@@ -106,7 +107,7 @@
 			</div>
 		</section>
 
-	<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{counterSection.bg}});" data-stellar-background-ratio="0.5">
+		<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url({{counterSection.bg}});" data-stellar-background-ratio="0.5">
     	<div class="container">
     		<div class="row d-md-flex align-items-center justify-content-center">
     			<div class="col-lg-10">
@@ -136,99 +137,136 @@
             <h2 class="mb-4">Our Menu</h2>
           </div>
         </div>
-        <div class=" row">
-				{{! WHAT WE HAVE AS BEER  DRINKS::::::::::::::::::: }}
+        <div class="row">
         	<div class="col-md-6 col-lg-4 menu-wrap">
+			{{! Drinks part }}
         		<div class="heading-menu text-center ftco-animate">
         			<h3>Drinks</h3>
         		</div>
-				<div class="menus d-flex ftco-animate">
-					{{#menuSection.drinks}}
-							<div class="text d-flex">
-							<div class="menu-img img" style="background-image: url({{img}});"></div>
-								<div class="d-flex">
-									<div class="one-half">
-										<h3>{{name}}</h3>
-									</div>
-									<div class="one-forth">
-										<span class="price">${{price}}</span>
-									</div>
-								</div>
+				{{#menuSection.drinks}}
+        		<div class="menus d-flex ftco-animate">
+              		<div class="menu-img img" style="background-image: url({{img}});"></div>
+					<div class="text">
+						<div class="d-flex">
+							<div class="one-half">
+								<h3>{{name}}</h3>
 							</div>
-							<p class="text-sm my-2">
-								{{#ingred}}
-									<span>{{ingred1}}</span>,
-									<span>{{ingred2}}</span>
-									<span>{{ingred3}}</span>
-									<span>{{ingred4}}</span>
-								{{/ingred}}
-							</p>
-					{{/menuSection.drinks}}
-				</div>
-			</div>
-
-				{{! WHAT WE HAVE AS NORMAL DRINKS::::::::::::::::::: }}
+							<div class="one-forth">
+								<span class="price">${{price}}</span>
+							</div>
+						</div>
+						<p>
+							{{#ingredients}}
+								<span>{{name}}</span>
+							{{/ingredients}}
+						</p>
+					</div>
+           		</div>
+				{{/menuSection.drinks}}
+			
+			{{! Tea part }}
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
-        			<h3>Tea</h3>
+        			<h3>Teat</h3>
         		</div>
-				<div class="menus d-flex ftco-animate">
-					{{#menuSection.tea}}
-							<div class="text d-flex">
-							<div class="menu-img img" style="background-image: url({{img}});"></div>
-								<div class="d-flex">
-									<div class="one-half">
-										<h3>{{name}}</h3>
-									</div>
-									<div class="one-forth">
-										<span class="price">${{price}}</span>
-									</div>
-								</div>
-							</div>
-							<p class="text-sm my-2">
-								{{#ingred}}
-									<span>{{ingred1}}</span>,
-									<span>{{ingred2}}</span>
-									<span>{{ingred3}}</span>
-									<span>{{ingred4}}</span>
-								{{/ingred}}
-							</p>
-					{{/menuSection.tea}}
-				</div>
-			</div>
+        		<div class="menus d-flex ftco-animate">
+              		<div class="menu-img img" style="background-image: url(images/lunch-1.jpg);"></div>
+              		<div class="text">
+              			<div class="d-flex">
+	                		<div class="one-half">
+	                  			<h3>{{name}}</h3>
+	               			</div>
+	                	<div class="one-forth">
+	                  	<span class="price">${{price}}</span>
+	                </div>
+	            </div>
+	            <p>
+						{{#ingredients}}
+							<span> {{name}}</span>
+						{{/ingredients}}
+				</p>
+            </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(images/lunch-2.jpg);"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>Grilled Crab with Onion</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">$29</span>
+	                </div>
+	              </div>
+	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(images/lunch-3.jpg);"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>Grilled Crab with Onion</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">$29</span>
+	                </div>
+	              </div>
+	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+              </div>
+            </div>
+        	</div>
 
-			{{! WHAT WE HAVE AS PASTRIES::::::::::::::::::: }}
         	<div class="col-md-6 col-lg-4 menu-wrap">
         		<div class="heading-menu text-center ftco-animate">
         			<h3>Pastries</h3>
         		</div>
-				<div class="menus d-flex ftco-animate">
-					{{#menuSection.pastries}}
-							<div class="text d-flex">
-							<div class="menu-img img" style="background-image: url({{img}});"></div>
-								<div class="d-flex">
-									<div class="one-half">
-										<h3>{{name}}</h3>
-									</div>
-									<div class="one-forth">
-										<span class="price">${{price}}</span>
-									</div>
-								</div>
-							</div>
-							<p class="text-sm my-2">
-								{{#ingred}}
-									<span>{{ingred1}}</span>,
-									<span>{{ingred2}}</span>
-									<span>{{ingred3}}</span>
-									<span>{{ingred4}}</span>
-								{{/ingred}}
-							</p>
-					{{/menuSection.pastries}}
-				</div>
-			</div>
-        <div class=" container row">
-        	<div class="col-md-12 text-center  ftco-animate">
-        		<p><a href="/specialities" class="btn btn-primary py-3 mx-5 px-2 px-lg-5">View All Menu</a></p>
+        		<div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(images/dinner-1.jpg);"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>Grilled Beef with potatoes</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">$29</span>
+	                </div>
+	              </div>
+	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(images/dinner-2.jpg);"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>Grilled Crab with Onion</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">$29</span>
+	                </div>
+	              </div>
+	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+              </div>
+            </div>
+            <div class="menus d-flex ftco-animate">
+              <div class="menu-img img" style="background-image: url(images/dinner-3.jpg);"></div>
+              <div class="text">
+              	<div class="d-flex">
+	                <div class="one-half">
+	                  <h3>Grilled Crab with Onion</h3>
+	                </div>
+	                <div class="one-forth">
+	                  <span class="price">$29</span>
+	                </div>
+	              </div>
+	              <p><span>Meat</span>, <span>Potatoes</span>, <span>Rice</span>, <span>Tomatoe</span></p>
+              </div>
+            </div>
+        	</div>
+        <div class="row">
+        	<div class="col-md-12 text-center ftco-animate">
+        		<p><a href="#" class="btn btn-black py-3 px-5">View All Menu</a></p>
         	</div>
         </div>
     	</div>
@@ -322,8 +360,8 @@
       </div>
     </section>
 			
-	<section class="ftco-section">
-		<div class="container">
+		<section class="ftco-section">
+			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
           <div class="col-md-7 text-center heading-section ftco-animate">
           	<span class="subheading">Chef</span>
@@ -335,8 +373,8 @@
 						<div class="staff">
 							<div class="img" style="background-image: url(images/chef-4.jpg);"></div>
 							<div class="text px-4 pt-4">
-								<h3>John Smilga</h3>
-								<span class="position mb-2">Customer care</span>
+								<h3>John Smooth</h3>
+								<span class="position mb-2">CEO, Co Founder</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -353,8 +391,8 @@
 						<div class="staff">
 							<div class="img" style="background-image: url(images/chef-2.jpg);"></div>
 							<div class="text px-4 pt-4">
-								<h3>Sharley Wendy</h3>
-								<span class="position mb-2">Manager Chef</span>
+								<h3>Rebeca Welson</h3>
+								<span class="position mb-2">Head Chef</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -371,8 +409,8 @@
 						<div class="staff">
 							<div class="img" style="background-image: url(images/chef-3.jpg);"></div>
 							<div class="text px-4 pt-4">
-								<h3>Brian Kuran</h3>
-								<span class="position mb-2">Advisor</span>
+								<h3>Kharl Branyt</h3>
+								<span class="position mb-2">Chef</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -390,7 +428,7 @@
 							<div class="img" style="background-image: url(images/chef-1.jpg);"></div>
 							<div class="text px-4 pt-4">
 								<h3>Luke Simon</h3>
-								<span class="position mb-2">Kitchen Chef</span>
+								<span class="position mb-2">Chef</span>
 								<div class="faded">
 									<!-- <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p> -->
 									<ul class="ftco-social d-flex">
@@ -405,49 +443,55 @@
 					</div>
 				</div>
 			</div>
-	</section>
+		</section>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb">
+		<section class="ftco-section ftco-no-pt ftco-no-pb">
 			<div class="container">
 				<div class="row d-flex">
           <div class="col-md-5 ftco-animate img img-2" style="background-image: url(images/bg_6.jpg);"></div>
           <div class="col-md-7 ftco-animate makereservation p-4 p-md-5">
           	<div class="heading-section ftco-animate mb-5">
-	          	<span class="subheading mb-2"> Wanna Book a Table??</span>
+	          	<span class="subheading">Book a Table</span>
 	            <h2 class="mb-4">Make Reservation</h2>
 	          </div>
-            <form action="/order" method = "POST">
+            <form action="#">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text"  name="name" class="form-control" placeholder="Your  Name">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" class="form-control" placeholder="Your Email" id = "email">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" placeholder="Your Email">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="text" name="phone" class="form-control" placeholder="Phone">
+                    <label for="">Phone</label>
+                    <input type="text" class="form-control" placeholder="Phone">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="time">When do you need it?</label>
-                    <input type="text"  name="time" class="form-control" id="book_date" placeholder="Date">
+                    <label for="">Phone</label>
+                    <input type="text" class="form-control" id="book_date" placeholder="Date">
                   </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                   <div class="form-group">
-                    <label for="number">Person</label>
+                    <label for="">Time</label>
+                    <input type="text" class="form-control" id="book_time" placeholder="Time">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="">Person</label>
                     <div class="select-wrap one-third">
                       <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="number" id="" class="form-control">
+                      <select name="" id="" class="form-control">
                         <option value="">Person</option>
                         <option value="">1</option>
                         <option value="">2</option>
@@ -455,13 +499,6 @@
                         <option value="">4+</option>
                       </select>
                     </div>
-                  </div>
-                </div>
-				<div class="col-md-8">
-                  <div class="form-group">
-                    <label for="">Describe your order</label>
-                    <textarea type="text" name="order" rows = "8" class="form-control"  style=" background-color: #f9f9f9 !important;"placeholder="Describe your order here ..." >
-					</textarea>
                   </div>
                 </div>
                 <div class="col-md-12 mt-3">

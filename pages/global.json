@@ -27,6 +27,7 @@
             "title": "Welcome to Coffee House Home",
             "subtitle": "On his way to Coffee House Home, he found that he had forgot his account card so he thought he had no other way pay and drink and eat the freshest coffee or eat some most delicious food! He also forgot that he was our potential customer since he had visited us only twice! So easy! he had to come and take what he wanted and  pay on the following day. Come home frequently and you will find your second home! <br>Welcome home! ",
             "bg": "url(images/image-people-coffee.png);",
+            "video" : "https://youtu.be/Wjs0GI8nEiA",
             "images":[
                 {
                     "img": "url(images/insta-2.jpg);",
@@ -47,11 +48,11 @@
             "bg": "images/bg_4.jpg",
             "experience": [
                 {
-                    "number": "5",
+                    "number": "10",
                     "caption": "Years of Experience"
                 },
                 {
-                    "number": "2000",
+                    "number": "20000",
                     "caption": "Happy customers"
                 },
                 {
@@ -65,88 +66,129 @@
             ] 
         },
         "menuSection":
-        { "drinks":
-            [ 
+        {
+            "drinks": [
                 {
-                    "name": "Smirking Priest Gimlet",
-                    "img": "images/breakfast-1.jpg",
-                    "price":  24,
-                    "ingred": [
-                        {"ingred1": "Lemon ashes" },
-                        {"ingred2": "Honey" },
-                        {"ingred3": "Red wine" },
-                        {"ingred4": "Hennessy" }
+                    "id":  1,
+                    "img":  "images/red-cocktail.png",
+                    "name": "Red cocktail",
+                    "price": "10",
+                    "ingredients":  [
+                        {"name": "wheat"},
+                        {"name": "Red wine"},
+                        {"name": "Amango"},
+                        {"name": "Pakis"},
+                        {"name": "Smilga"}
                     ]
                 },
                 {
-                    "name": "Honey Badger Blitz",
-                    "img": "images/lunch-1.jpg",
-                    "price": 10,
-                    "ingred": [
-                        {"ingred1": "Lemon ashes" },
-                        {"ingred2": "Honey" },
-                        {"ingred3": "Red wine" },
-                        {"ingred4": "Hennessy" }
+                    "id":  2,
+                    "img":  "images/black-coffee.jpg",
+                    "name": "Black coffee",
+                    "price": "20",
+                    "ingredients": [
+                        {"name": "Coffee"},
+                        {"name": "Honey"},
+                        {"name": "Lemon"},
+                        {"name": "Ginger"}
                     ]
+                },
+                {
+                    "id":  3,
+                    "img":  "images/GreenTea1.jpg",
+                    "name": "Green Tea",
+                    "price": "15",
+                    "ingredients":  [
+                        {"name": "Lemon"},
+                        {"name": "Teat floor"},
+                        {"name": "Coffee"},
+                        {"name": "Sugar"},
+                        {"name": "Nicotin slin"}
+                    ]       
                 }
+
             ],
-        "tea":
-        [ 
+            "tea": [
                 {
-                    "name": "Smirking Priest Gimlet",
-                    "img": "images/lunch-1.jpg",
-                    "price": 40,
-                    "ingred": [
-                        {"ingred1": "Lemon ashes" },
-                        {"ingred2": "Honey" },
-                        {"ingred3": "Red wine" },
-                        {"ingred4": "Hennessy" }
+                    "id":  1,
+                    "img":  "images/red-cocktail.png",
+                    "name": "Red cocktail",
+                    "price": "10",
+                    "ingredients":  [
+                        {"name": "wheat"},
+                        {"name": "Red wine"},
+                        {"name": "Amango"},
+                        {"name": "Pakis"},
+                        {"name": "Smilga"}
                     ]
                 },
                 {
-                    "name": "Roasted chicken",
-                    "img": "images/lunch-1.jpg",
-                    "price": 20,
-                    "ingred": [
-                        {"ingred1": "Lemon ashes" },
-                        {"ingred2": "Honey" },
-                        {"ingred3": "Red wine" },
-                        {"ingred4": "Hennessy" }
+                    "id":  2,
+                    "img":  "images/black-coffee.jpg",
+                    "name": "Black coffee",
+                    "price": "20",
+                    "ingredients": [
+                        {"name": "Coffee"},
+                        {"name": "Honey"},
+                        {"name": "Lemon"},
+                        {"name": "Ginger"}
                     ]
+                },
+                {
+                    "id":  3,
+                    "img":  "images/GreenTea.jpg",
+                    "name": "Green Tea",
+                    "price": "15",
+                    "ingredients":  [
+                        {"name": "Lemon"},
+                        {"name": "Teat floor"},
+                        {"name": "Coffee"},
+                        {"name": "Sugar"},
+                        {"name": "Nicotin slin"}
+                    ]       
                 }
-        ],
-        "pastries":
-        [
+
+            ],
+            "pastries": [
                 {
-                    "name": "Grilled Beef with potatoes",
-                    "img": "images/lunch-1.jpg",
-                    "price": 7,
-                    "ingred": [
-                        {"ingred1": "Lemon ashes" },
-                        {"ingred2": "Honey" },
-                        {"ingred3": "Red wine" },
-                        {"ingred4": "Hennessy" }
+                    "id":  1,
+                    "img":  "images/red-cocktail.png",
+                    "name": "Red cocktail",
+                    "price": "10",
+                    "ingredients":  [
+                        {"name": "wheat"},
+                        {"name": "Red wine"},
+                        {"name": "Amango"},
+                        {"name": "Pakis"},
+                        {"name": "Smilga"}
                     ]
                 },
                 {
-                    "name": "Roasted chicken",
-                    "img": "images/lunch-1.jpg",
-                    "price": 5,
-                    "ingred": [
-                        {"ingred1": "Lemon ashes" },
-                        {"ingred2": "Honey" },
-                        {"ingred3": "Red wine" },
-                        {"ingred4": "Hennessy" }
+                    "id":  2,
+                    "img":  "images/black-coffee.jpg",
+                    "name": "Black coffee",
+                    "price": "20",
+                    "ingredients": [
+                        {"name": "Coffee"},
+                        {"name": "Honey"},
+                        {"name": "Lemon"},
+                        {"name": "Ginger"}
                     ]
+                },
+                {
+                    "id":  3,
+                    "img":  "images/GreenTea.jpg",
+                    "name": "Green Tea",
+                    "price": "15",
+                    "ingredients":  [
+                        {"name": "Lemon"},
+                        {"name": "Teat floor"},
+                        {"name": "Coffee"},
+                        {"name": "Sugar"},
+                        {"name": "Nicotin slin"}
+                    ]       
                 }
             ]
-
-        },
-        "testimony":
-        {
-
-            
-
         },
         "footerSection":
         {
