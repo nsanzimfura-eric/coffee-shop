@@ -8709,6 +8709,7 @@ h1, h2, h3, h4, h5,
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease; }
+
   .staff .img {
     height: 320px;
     background-position: top center; }

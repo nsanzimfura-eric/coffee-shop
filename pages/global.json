@@ -195,28 +195,28 @@
         [
             {
                 "name": "Arthur Browner",
-                "img": "images/person_4.jpg",
+                "img": "images/a.jpg",
                 "quote": "You know what?! I love youuu! With your beers, cocktails, Cow legs, ... Simply, everything you make is amazing for sure!",
                 "position": "Singer and songwriter"
 
             },
             {
-                "name": "Jean Claude Kenedy",
-                "img": "images/person_1.jpg",
-                "quote": "Nothing I can say, but I have migrated to live inside my home of coffee. When am done eating I got to work!",
-                "position": "Footbal player"
+                "name": "Miss Erica Blueinnie",
+                "img": "images/b.jpg",
+                "quote": "Nothing I can say, but me and my man have migrated to live inside my home of coffee. When am done eating I got to work!",
+                "position": " Journalist"
 
             },
             {
-                "name": "Jean-Jack Smith",
-                "img": "images/person_2.jpg",
+                "name": "Smilgary Jessie",
+                "img": "images/c.jpg",
                 "quote": "Really , I have liked this home from when they gave me the Magnana and since then it can't last atmost 2 days without eating the magnana! They are really dope!!",
-                "position": " Minister of defence"
+                "position": " Minister of IT"
 
             },
             {
                 "name": "Jack Hanet ANANA",
-                "img": "images/person_3.jpg",
+                "img": "images/f.jpg",
                 "quote": "Aiyyooo! I love you so much! You have drugged me!! Hahaha ..... see now I always sing that without you, no other sweet Green tea. Love you mein, keep it up!",
                 "position": " Journalist"
 
@@ -225,10 +225,106 @@
         ]
         },
         "MaterChefSection":
-        {
+        {"chiefs":
+        [
+            {
+                "name": "Anastase Zamata",
+                "position": " CEO, Co-founder",
+                "img": "images/chiefs3.jpg",
+                "contacts": [
+                    {
+                    "class": "icon-facebook",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-google-plus",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-instagram",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-twitter",
+                    "link": ""
+                    }
+                ]
+            },
+            {
+                "name": "Ernest Girishya",
+                "position": " Assistant",
+                "img": "images/chiefs4.jpg",
+                "contacts": [
+                    {
+                    "class": "icon-facebook",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-google-plus",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-instagram",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-twitter",
+                    "link": ""
+                    }
+                ]
+            },
+            {
+                "name": "Zigdi Zain",
+                "position": " Customer service",
+                "img": "images/chiefs1.jpg",
+                "contacts": [
+                    {
+                    "class": "icon-facebook",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-google-plus",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-instagram",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-twitter",
+                    "link": ""
+                    }
+                ]
+            },
+            {
+                "name": "Anita ANANA",
+                "position": " Customer service",
+                "img": "images/chiefss2.jpg",
+                "contacts": [
+                    {
+                    "class": "icon-facebook",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-google-plus",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-instagram",
+                    "link": ""
+                    },
+                    {
+                    "class": "icon-twitter",
+                    "link": ""
+                    }
+                ]
+            }
             
+        ]
+
 
         },
+
         "footerSection":
         {
         "Newsletter": "Subscribe us to get every new style or kind of coffee we got from new countries. We know you will love it!",
