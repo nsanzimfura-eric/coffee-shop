@@ -11,9 +11,10 @@
     "postinstall": "turbo postinstall"
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "turbo-cli": "^0.39.6",
     "turbo360": "^1.8.69",
-    "vertex360": "^0.30.39",
-    "express": "^4.17.1"
+    "vertex360": "^0.30.39"
   },
   "devDependencies": {
     "nodemon": "^2.0.2",
