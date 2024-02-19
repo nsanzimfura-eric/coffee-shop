@@ -14,7 +14,7 @@
   "heroSectionSlide2": {
     "hero": "The home of<br> quality things",
     "subHero": "Imagine  taking coffee cups and simple food from home and it has no effects on your body. It is a paradisematic country. <br> So welcome Home!!",
-    "bg": "url(images/image-coffee-up.png);",
+    "bg": "url(images/image-coffee-up.jpg);",
     "img1": "url(images/insta-5.jpg);",
     "img2": "url(images/pork-chicken.png);",
     "img3": " url(images/goodPork.png);"
@@ -22,7 +22,7 @@
   "about": {
     "title": "Welcome to Coffee House Home",
     "subtitle": "On his way to Coffee House Home, he found that he had forgot his account card so he thought he had no other way pay and drink and eat the freshest coffee or eat some most delicious food! He also forgot that he was our potential customer since he had visited us only twice! So easy! he had to come and take what he wanted and  pay on the following day. Come home frequently and you will find your second home! <br>Welcome home! ",
-    "bg": "url(images/image-people-coffee.png);",
+    "bg": "url(images/image-people-coffee.jpeg);",
     "video": "https://www.youtube.com/@relaxhubbird",
     "images": [
       {
@@ -185,10 +185,10 @@
   "testimonialSection": {
     "people": [
       {
-        "name": "Arthur Browner",
-        "img": "images/a.jpg",
+        "name": "Nsanzimfura Eric",
+        "img": "images/a.png",
         "quote": "You know what?! I love youuu! With your beers, cocktails, Cow legs, ... Simply, everything you make is amazing for sure!",
-        "position": "Singer and songwriter"
+        "position": "Full stack developer"
       },
       {
         "name": "Miss Erica Blueinnie",
@@ -219,19 +219,19 @@
         "contacts": [
           {
             "class": "icon-facebook",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-google-plus",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-instagram",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-twitter",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           }
         ]
       },
@@ -242,19 +242,19 @@
         "contacts": [
           {
             "class": "icon-facebook",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-google-plus",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-instagram",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-twitter",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           }
         ]
       },
@@ -265,19 +265,19 @@
         "contacts": [
           {
             "class": "icon-facebook",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-google-plus",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-instagram",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-twitter",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           }
         ]
       },
@@ -288,19 +288,19 @@
         "contacts": [
           {
             "class": "icon-facebook",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-google-plus",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-instagram",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           },
           {
             "class": "icon-twitter",
-            "link": ""
+            "link": "https://nsanzimfura.web.app/"
           }
         ]
       }
